@@ -16,12 +16,6 @@ class Test_001:
         print("test_002")
         assert True
 
-    @pytest.allure.severity(pytest.allure.severity_level.NORMAL)
-    @allure.step(title="这是一个测试样品3")
-    def test_003(self):
-        print("test_003")
-        assert False
-
     @pytest.allure.severity(pytest.allure.severity_level.MINOR)
     @allure.step(title="这是一个测试样品4")
     def test_004(self):
